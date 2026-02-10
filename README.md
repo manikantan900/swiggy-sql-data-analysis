@@ -1,4 +1,5 @@
 🍔 Swiggy SQL Data Analysis Project
+
 📌 Project Overview
 
 This project focuses on analyzing Swiggy sales data using SQL to derive meaningful business insights related to revenue performance, city-wise trends, and restaurant rankings.
