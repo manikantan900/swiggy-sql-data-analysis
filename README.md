@@ -30,7 +30,8 @@ SQL Server / MySQL / PostgreSQL – SQL-compatible engines
 
 Git & GitHub – Version control & project hosting
 
-🗂️ Project Structure
+## 🗂️ Project Structure
+
 swiggy-sql-data-analysis/
 │
 ├── sql/
