@@ -1,15 +1,15 @@
 🍔 Swiggy SQL Data Analysis Project
-
 📌 Project Overview
 
-This project focuses on analyzing Swiggy sales data using SQL to derive meaningful business insights related to revenue performance, city-wise trends, and restaurant rankings.
-It simulates a real-world analytics workflow, starting from business requirements to query execution and insights generation.
+This project analyzes Swiggy sales data using SQL to extract actionable business insights related to revenue performance, city-wise trends, and restaurant rankings.
 
-The goal is to demonstrate SQL proficiency, business understanding, and GitHub project structuring for a data analytics portfolio.
+It simulates a real-world analytics workflow—starting from a Business Requirement Document (BRD), translating requirements into SQL queries, and presenting insights in a structured GitHub repository.
+
+Goal: Demonstrate SQL proficiency, business understanding, and professional project structuring for a data analytics portfolio.
 
 🎯 Business Objective
 
-Swiggy wants to:
+Swiggy aims to:
 
 Understand revenue contribution across cities
 
@@ -19,18 +19,17 @@ Assess data quality issues
 
 Enable data-driven decision-making for growth and operations
 
-These objectives were documented in a Business Requirement Document (BRD) and translated into SQL analysis.
+These objectives were captured in a Business Requirement Document (BRD) and implemented through SQL analysis.
 
 🧰 Tools & Technologies
 
-SQL (Data analysis & aggregation)
+SQL – Data analysis & aggregation
 
-SQL Server / MySQL / PostgreSQL (any SQL-compatible engine)
+SQL Server / MySQL / PostgreSQL – SQL-compatible engines
 
-Git & GitHub (version control & project hosting)
+Git & GitHub – Version control & project hosting
 
 🗂️ Project Structure
-
 swiggy-sql-data-analysis/
 │
 ├── sql/
@@ -54,7 +53,7 @@ swiggy-sql-data-analysis/
 
 Reviewed the Business Requirement Document (BRD)
 
-Understood business KPIs and analytical expectations
+Identified key business KPIs and metrics
 
 Performed data quality checks (nulls, inconsistencies)
 
@@ -62,25 +61,25 @@ Wrote SQL queries to:
 
 Calculate total and city-wise revenue
 
-Rank restaurants by sales
+Rank restaurants by total sales
 
 Analyze ratings and order behavior
 
-Stored SQL scripts in a structured format
+Organized SQL scripts into logical folders
 
-Captured result screenshots for quick review
+Captured result screenshots for quick insight review
 
-Published the project to GitHub for portfolio presentation
+Published the project on GitHub for portfolio presentation
 
 📊 Key SQL Analysis Performed
 
 Data quality validation using CASE WHEN and aggregations
 
-City-wise revenue contribution
+City-wise revenue contribution analysis
 
 Top-performing restaurants by total sales
 
-Aggregated metrics such as average ratings and order counts
+Aggregated metrics (average ratings, order counts)
 
 🔍 Key Insights
 
@@ -88,11 +87,11 @@ Identified high-revenue cities contributing the majority of sales
 
 Ranked top restaurants based on total revenue
 
-Highlighted data quality gaps impacting analysis accuracy
+Highlighted data quality gaps that may impact analytical accuracy
 
 📄 Business Requirement Document
 
-This project was built based on a formal BRD outlining:
+This project is driven by a formal BRD outlining:
 
 Business questions
 
@@ -100,16 +99,16 @@ KPIs
 
 Expected analytical outputs
 
-📎 File available at:
+📎 Available at:
 docs/Swiggy_Business_Requirement_Document.pdf
 
 ▶️ How to Use This Project
 
-Download or clone the repository
-
-Open the .sql files from the sql/ folder
+Clone or download the repository
 
 Load the dataset into your SQL environment
+
+Open .sql files from the sql/ folder
 
 Execute queries in sequence
 
@@ -120,4 +119,5 @@ Review outputs or screenshots in the results/ folder
 Manikantan P
 Data Analytics | SQL | Business Analysis
 
-🔗 GitHub: Swiggy SQL Data Analysis Project
+🔗 GitHub Repository:
+https://github.com/manikantan900/swiggy-sql-data-analysis
