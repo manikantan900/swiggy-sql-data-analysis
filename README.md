@@ -1,26 +1,40 @@
+# Swiggy SQL Data Analysis Project
 
-## 🚀 Steps Followed (End-to-End)
-1. Imported the dataset from Google Drive.
-2. Performed data quality checks to find missing values.
-3. Wrote SQL queries to:
-   - Calculate total sales
-   - Analyze city-wise revenue
-   - Identify top-performing restaurants
-4. Uploaded SQL scripts to GitHub for version control and portfolio presentation.
-5. Documented project structure and insights in README.
+## Objective
+Analyze Swiggy sales data using SQL to identify revenue trends across cities, restaurants, and food categories.
 
-## 📊 Key Insights
-- Identified cities generating the highest revenue.
-- Ranked restaurants based on total sales.
-- Highlighted potential areas for business improvement.
+## Dataset
+- Source: Swiggy sales dataset
+- Format: CSV
+- Records include city, restaurant, category, dish, price, rating, and order details
 
-## 📌 How to Use
-1. Load dataset into your SQL database (SQL Server, MySQL, or PostgreSQL).  
-2. Run `analysis.sql` to execute all queries.  
-3. View results for data quality checks, sales analysis, and top-performing restaurants.
+## Tools Used
+- SQL (SSMS)
+- GitHub
+
+## Project Structure
+swiggy_sql_analysis/
+├── README.md
+├── dataset/
+│   └── swiggy_sales.csv
+├── sql/
+│   └── SQLQuery_SWIGGY.sql
+└── results/
+## Analysis Performed
+- Data quality checks (NULL value validation)
+- Total and city-wise revenue analysis
+- Top-performing restaurants
+- Rating and sales insights
+
+## Key Insights
+- Identified cities contributing the highest revenue
+- Ranked restaurants based on total sales
+- Detected data quality issues using SQL validation queries
+
+## How to Use
+1. Import `swiggy_sales.csv` into SQL Server
+2. Open `SQLQuery_SWIGGY.sql`
+3. Execute queries step-by-step
 
 ## Author
 Manikantan P
-
-## GitHub Repository
-[https://github.com/manikantan900/swigsq-sql-data-analysis](https://github.com/manikantan900/swigsq-sql-data-analysis)
